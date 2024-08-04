@@ -1,0 +1,145 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+h3{
+    font-size: 30px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    width: 100%;
+    position: fixed;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+
+}
+.part1{
+    height: 100%;
+    width: 50%;
+    /* background-color: blueviolet; */
+    padding: 100px;
+    margin-top: 160px;
+}
+.h1{
+    margin-left: 20px;
+    margin-bottom: 7px;
+    background-color: orangered;
+    
+
+
+}
+h1{
+    background-color: burlywood;
+    font-weight: 400;
+} 
+.part1 p{
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 150px;
+}
+.part2{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(28, 25, 32); */
+}
+.part1 img {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.round{ 
+    height: 300px;
+    width: 300px;
+    clip-path: circle(49.0% at 50% 97%);
+    background: linear-gradient(rgb(25, 157, 155),rgb(11, 206, 92),rgb(121, 190, 121));
+     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.687);
+    position: absolute;
+    
+    left: 76%;
+    top: 62%;
+}
+/* .timer{
+    height: 40px;
+    width: 40px;
+    clip-path: polygon(25% 0%, 75% 0%, 55% 49%, 75% 100%, 25% 100%, 52% 48%);
+    box-shadow: 0 20px 50px rgba(52, 49, 49, 0.687);
+    background-color: rgb(105, 26, 209);
+    position: absolute;
+    top: 70%;
+    left: 75%;
+} */
+.box{
+    height: 40px;
+    width: 40px;
+    background-color: orangered;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.687);
+    position: absolute;
+    top: 69%;
+    left: 85%;
+}
+.star{
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.687);
+    background-color: orangered;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+
+    position: absolute;
+    top: 71%;
+    left: 90%;
+}
+.img1{
+    position: absolute;
+    top: 88%;
+    left: 70%;
+    height: 50px;
+    filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.45));
+
+}
+.img2{
+    position: absolute;
+    top: 88%;
+    left: 94.5%;
+    height: 50px;
+    filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.45));
+
+}
+.img3{
+    position: absolute;
+    top: 75%;
+    left: 91%;
+    height: 50px;
+    filter: drop-shadow(0 20px 20px rgba(0, 0, 0, 0.45));
+
+}
